@@ -1,0 +1,1 @@
+## Este script define quatro operações aritméticas básicas e uma função calculadora que fornece uma interface de linha de comando para realizar essas operações. O usuário pode selecionar uma operação, digitar dois números e o script exibirá o resultado.
