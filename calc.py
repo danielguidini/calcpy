@@ -49,3 +49,6 @@ def calculadora():
             print("Resultado:", div(num1, num2))
         else:
             print("Escolha inválida. Tente novamente.")
+
+#Chama a função para usar a calculadora
+calculadora()
