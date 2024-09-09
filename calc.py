@@ -18,17 +18,19 @@ def div(x, y):
 
 #Programa Principal
 def calculadora():
-    
     while True:
+        print()
         print("Selecione uma operação:")
         print("1. Soma")
         print("2. Subtração")
         print("3. Multiplicação")
         print("4. Divisão")
         print("5. Sair")
+        print()
 
         #Escolha da Operação pelo usuario
         escolha = input("Digite sua escolha: ")
+        print()
         
         #Escape do loop e encerramento do programa
         if escolha == '5':
@@ -36,7 +38,9 @@ def calculadora():
         
         #Inserção dos dados pelo o usuario
         num1 = float(input("Digite o primeiro número: "))
+        print()
         num2 = float(input("Digite o segundo número: "))
+        print()
 
         #Estrutura Condicional da escolha do usuario
         if escolha == '1':
@@ -49,6 +53,7 @@ def calculadora():
             print("Resultado:", div(num1, num2))
         else:
             print("Escolha inválida. Tente novamente.")
+        print()
 
 #Chama a função para usar a calculadora
 calculadora()
